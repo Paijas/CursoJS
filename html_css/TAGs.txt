@@ -1,1 +1,28 @@
 TAGS IMPORTANTES PARA LEMBRAR!!!
+
+TAGS INLINE:
+
+<a href="https://www.youtube.com/" target="_blank"></a> -> linkar links em textos ou imagens
+<br> -> pula linha
+<b></b> -> negrito
+<i></i> -> deixa em itálico
+<em></em> -> da enfase
+<strong></strong> ->deixa a palavra mais forte
+<p></p> -> cria um paragrafo
+<q></q> -> deixa entre aspas, bom para citaçoes
+<del></del> -> deleta uma palavra, risca ela
+<ins></ins> -> insere uma palabra, sublinhando ela
+<small></small> -> deixa a palabra pequena
+<sup></sup> -> deixa algo elevado, por exemplo, 2^2
+<sub></sub> deixa algo menor, exemplo: H_20
+<code></code> -> para citações de codigos dentro de paragrafos
+<span></spam> -> tag de container genérico para texto inline
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+TAGS BLOCO:
+
+<blockquote></blockquote> -> citacao em bloco
+<hr></hr> cria uma linha para separa paragrafos
+<pre></pre> -> tag de texto pré formatado
+<div></div> -> tag de container em bloco
