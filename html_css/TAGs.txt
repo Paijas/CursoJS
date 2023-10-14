@@ -26,3 +26,26 @@ TAGS BLOCO:
 <hr></hr> cria uma linha para separa paragrafos
 <pre></pre> -> tag de texto pré formatado
 <div></div> -> tag de container em bloco
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+<div></div> -> tag sem semantica, nao precisa de heading
+<section></section> -> tag com semantica dentro, precisa de uma heading(h1-h6)   
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+LISTA
+
+<ul></ul> -> lista não ordenada
+<ol></ol> -> lista ordenada
+<li></li> -> item de lista
+<dl></dl> -> lista descritiva
+<dt></dt> -> termo descritivo
+<dd></dd> -> descreve o termo descritivo
+
+TABELAS
+<table></table> -> TABELAS
+<thead></thead> -> Corpo da tabela
+<tr></tr> -> Linha
+<th></th> -> texto Coluna
+<td></td> -> texto Linha

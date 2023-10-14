@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;;
+    width: 800px;
+
+}
+
+table td, table th{
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+thead th, thead td {
+    text-align: left;
+}
+
+table caption{
+    padding-top: 5px;
+    text-align: center  ;
+    font-style: italic;
+    font-size: 14px;
+    caption-side: bottom;
+}
+
+table th{  
+    background-color: purple;
+}
+
+tfoot{
+    background-color: #dddddd;
+}
+
+.principal{
+    text-align: center  ;
+}
+
+.tabela{
+    max-width: 100%;
+    overflow: auto ;
+}
