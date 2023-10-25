@@ -49,3 +49,9 @@ TABELAS
 <tr></tr> -> Linha
 <th></th> -> texto Coluna
 <td></td> -> texto Linha
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+CSS
+
+z-index -> define a camada que o elemento está

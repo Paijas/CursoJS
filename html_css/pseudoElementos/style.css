@@ -1,0 +1,24 @@
+ul li::after{
+    content: "-";
+    background-color: red;
+    color: white;
+}
+
+ul li::before{
+    content: "*";
+    background-color: rgb(48, 211, 157);
+    color: white;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color: rgb(114, 184, 250);
+}
+
+p::first-line{
+    background-color: rgb(243, 159, 159);
+}
+
+p::selection{
+    background-color: purple;
+}

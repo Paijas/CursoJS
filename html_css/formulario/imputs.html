@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <section>
+            <h1>Formulário</h1>
+            <p>Esse é o meu Formulário</p>
+            <p>
+                <label  style="display: block;">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </p>
+            <p>
+                <label  ">Você é homem?</label>
+                <input type="checkbox" id="dev" name="dev" checked>
+            </p>
+            <p>
+                <label  style="display: block;">Date?</label>
+                <input type="date" id="date" nome="date">
+            </p>
+            <p>
+                <label  style="display: block;">Date?</label>
+                <input type="datetime-local" id="date" nome="date">
+            </p>
+            <p>
+                <label  style="display: block;">Que horas agora?</label>
+                <input type="time" id="date" nome="date">
+            </p>
+            <p>
+                <label  style="display: flex;">Qial a cor do seus olhos?</label>
+                <input type="color" id="date" nome="color">
+            </p>
+            <p>
+                <label  style="display: block;">Email?</label>
+                <input type="email" id="date" nome="color" placeholder="Digite seu email">
+            </p>
+            <p>
+                <label  style="display: block;">Seu avatar?</label>
+                <input type="file" id="date" nome="photo" accept=".png">
+            </p>
+            <p>
+                <label  style="display: block;">Número da sorte?</label>
+                <input type="number" id="number" nome="number" placeholder="Digite seu número da sorte" min="1" max="10" step="2">
+            </p>
+            <p>
+                <label  style="display: block;">Senha</label>
+                <input type="password" id="senha" nome="senha" placeholder="Digite sua senha">
+            </p>
+            <p>
+                <label  style="display: block;">Digite seu URL</label>
+                <input type="url" id="url" nome="url">
+            </p>
+
+            <p>
+                <label>Selecione uma opção</label>
+                <select name="opcao" id="opcao">
+                    <optgroup label="Faculdade">
+                    <option value="qualquer 1">A</option>
+                    <option value="qualquer 2">B</option>
+                    <option value="qualquer 3">C</option>
+                    <option value="qualquer 4">D</option>
+                    </optgroup>
+                    <optgroup label="Escola">
+                        <option value="qualquer 5">A</option>
+                        <option value="qualquer 6">B</option>
+                        <option value="qualquer 7">C</option>
+                        <option value="qualquer 8">D</option>
+                        </optgroup>
+                </select>
+            </p>
+            <p>
+                <label>Escreva seu lema:</label>
+                <textarea name="lema" id="lema" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                Qual sua cor favorita?<br>
+                <label>Azul</label>
+                <input type="radio" name="cor" id="cor"><br>
+                <label>Verde</label>
+                <input type="radio" name="cor" id="cor"><br>
+                <label>Vermelho</label>
+                <input type="radio" name="cor" id="cor">
+            </p>
+
+        
+
+            <p>
+                <button type="reset">Reset</button>
+                <button type="submit">Enviar </button>
+            </p>
+        </section>
+    </form>
+</body>
+</html>

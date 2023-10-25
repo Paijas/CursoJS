@@ -1,0 +1,80 @@
+Claro, vou explicar sobre os especificadores de CSS. Os especificadores são usados para selecionar elementos HTML aos quais você deseja aplicar regras de estilo. Existem vários tipos de especificadores em CSS:
+
+1. **Seletores de Tipo:** Esses especificadores selecionam elementos HTML com base em seu tipo. 
+Por exemplo, se você deseja aplicar estilos a todos os parágrafos em uma página, você usaria o 
+seletor de tipo `p`.
+
+   Exemplo:
+   ```css
+   p {
+     color: blue;
+   }
+   ```
+
+2. **Seletores de Classe:** Os especificadores de classe permitem selecionar elementos com base em 
+sua classe atribuída. Para isso, você coloca um ponto antes do nome da classe.
+
+   Exemplo:
+   ```css
+   .destaque {
+     background-color: yellow;
+   }
+   ```
+
+   E no HTML:
+   ```html
+   <div class="destaque">Este é um elemento com a classe destaque.</div>
+   ```
+
+3. **Seletores de ID:** Os especificadores de ID são usados para selecionar elementos com base em seu
+ atributo `id`. Eles são precedidos por um "#" seguido pelo nome do ID.
+
+   Exemplo:
+   ```css
+   #cabecalho {
+     font-size: 24px;
+   }
+   ```
+
+   E no HTML:
+   ```html
+   <div id="cabecalho">Isso é um cabeçalho com ID.</div>
+   ```
+
+4. **Seletores de Descendência:** Você pode usar os seletores de descendência para selecionar elementos
+ dentro de outros elementos. Eles são separados por um espaço.
+
+   Exemplo:
+   ```css
+   ul li {
+     list-style-type: square;
+   }
+   ```
+
+   Isso selecionará todas as tags `li` dentro de uma lista `ul`.
+
+5. **Seletores de Filho Direto:** Você pode selecionar elementos que são filhos diretos de outro elemento
+ usando o ">" entre eles.
+
+   Exemplo:
+   ```css
+   nav > ul {
+     background-color: #333;
+   }
+   ```
+
+   Isso selecionará todas as listas não ordenadas `ul` que são filhas diretas de elementos `nav`.
+
+6. **Seletores de Atributo:** Esses seletores permitem selecionar elementos com base em seus atributos.
+
+   Exemplo:
+   ```css
+   input[type="text"] {
+     border: 1px solid #ccc;
+   }
+   ```
+
+   Isso selecionará todos os elementos `<input>` do tipo "text".
+
+Esses são alguns dos principais especificadores em CSS. Eles permitem que você direcione elementos 
+específicos em seu documento HTML e aplique estilos a eles de acordo com suas necessidades.

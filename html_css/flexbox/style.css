@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* tamanho total do elemento inclui a largura da borda e o preenchimento (padding)*/
+}
+
+.two-columns{
+    display: flex;
+}
+
+.two-columns .col{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue; 
+    margin: 15px;
+    padding: 30px;
+}
+
+.two-columns .col p{
+    margin: 10px;
+}
+
+.galery{
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.galery .img{
+    flex: 1 0 20%;
+    height: 50px;
+    margin: 10px;
+    background:rgb(29, 68, 173);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;/*Vertical*/
+    flex-flow: row wrap;/*mesma funcao do flex-wrap*/
+    align-items: flex-start;/*Horizontal*/
+    /*align-content: space-between;Alinha todo o conteúdo*/
+    /*flex-wrap: wrap; ativa a quebra de linha*/
+    background: rgb(37, 87, 128);
+    height: 640px;
+    
+}
+
+.flex-item{
+    /*flex-grow: 1;distribui espaço em branco para todos os elementos
+    flex-basis: 320px; ala o tamanho que cade elemento deve ter
+    flex-shrink: 0;vai permitir se o elemento vai diminuir ou não, nao diminuir(0), diminuir(1)
+    flex: 1 1 320px; flexgrow,flexshrink, flexbasis*/
+    width: 33.3%;
+    color: white;
+    background-color: rgb(90, 171, 209);
+}
+
+.flex-item:nth-child(1){
+    order: -3;
+    align-self: center;
+}
+
+.flex-item:nth-child(2){
+    order: -4;
+}
+
+.flex-item:nth-child(3){
+    order: -2;
+}
+
+.flex-item:nth-child(4){
+    order: -1;
+}
+
+.flex-item:nth-child(7){
+    align-self: stretch;
+}
+
+.flex-item:nth-child(5){
+    align-self: flex-end;
+}
+
+
+
+
